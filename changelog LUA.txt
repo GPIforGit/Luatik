@@ -1,0 +1,7 @@
+- add "\" for integer division
+- add "+=", "-=", "*=", "/=", "\=", "<<=", ">>=", "&=", "|=", "^=", "..=" ( http://lua-users.org/files/wiki_insecure/power_patches/5.4/ )
+- add "!=" for "~="
+- add autoload from DLLs from folder "libs"
+- automatic start autexec.lua
+
+- debug.debug - show/hide console window
