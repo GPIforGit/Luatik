@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Lua">
+      <UniqueIdentifier>{3d33a5de-bc81-41f1-a4b7-8ccad2886a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Lua">
+      <UniqueIdentifier>{910004e8-a96f-4247-81da-a4b33826c9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\libSDL2">
+      <UniqueIdentifier>{9f584015-d285-4247-9172-bc262c9c07ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\libSDL2">
+      <UniqueIdentifier>{0f9bbcc5-c2e7-4d2f-b8f0-3ce7e712f84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\libSDL2_Image">
+      <UniqueIdentifier>{8a85f654-bf1f-4581-a1df-38df7f4365c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\libSDL2_Image">
+      <UniqueIdentifier>{c8a853b5-b468-4b55-ad37-4239d9afadf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\libSDL2_Gui">
+      <UniqueIdentifier>{af5c68c0-3767-4b93-8d64-d2bc40a88e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\libSDL2_Gui">
+      <UniqueIdentifier>{da4bfbfb-b964-4d0f-bacc-a56520050f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\libProcess">
+      <UniqueIdentifier>{f3ce3e72-d400-4a79-a009-f61e8a30aa6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\libProcess">
+      <UniqueIdentifier>{7e212bb1-e0ed-49f4-b141-6bd672a1747f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\libMisc">
+      <UniqueIdentifier>{1ec9cc5b-958a-47ab-93ff-4575e886b2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\libMisc">
+      <UniqueIdentifier>{0c9c0120-6edc-4af1-a52a-fced1a2f962c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interpreter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\one.c">
+      <Filter>Quelldateien\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\extension.cpp">
+      <Filter>Quelldateien\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="libSDL2\sdl_warper.cpp">
+      <Filter>Quelldateien\libSDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="libSDL2_Image\sdlimage_warper.cpp">
+      <Filter>Quelldateien\libSDL2_Image</Filter>
+    </ClCompile>
+    <ClCompile Include="libSDL2_Gui\sdl_gui.cpp">
+      <Filter>Quelldateien\libSDL2_Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="libProcess\TinyProcess.cpp">
+      <Filter>Quelldateien\libProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="libProcess\process.cpp">
+      <Filter>Quelldateien\libProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="libProcess\process_win.cpp">
+      <Filter>Quelldateien\libProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="libMisc\libMisc.cpp">
+      <Filter>Quelldateien\libMisc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="lua.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ljumptab.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llex.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llimits.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lmem.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lobject.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lopcodes.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lopnames.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lparser.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lprefix.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstate.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstring.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltable.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltm.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\luaconf.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lualib.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lundump.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lvm.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lzio.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\extension.hpp">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.hpp">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lapi.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lauxlib.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lcode.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lctype.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldebug.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldo.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lfunc.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lgc.h">
+      <Filter>Headerdateien\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_sensor.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_surface.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_timer.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_touch.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_version.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_video.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_void.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\sdl_warper.h">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\Types.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\array_funcs.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\flags.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\framework.h">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_blendmode.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_clipboard.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_error.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_event.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_filesystem.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_gamecontroller.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_gesture.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_hints.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_hittest.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_init.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_joystick.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_keyboard.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_locale.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_messagebox.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_misc.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_mouse.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_pixels.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_power.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_rect.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_render.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2\luasdl_rwops.hpp">
+      <Filter>Headerdateien\libSDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Image\sdlimage_warper.h">
+      <Filter>Headerdateien\libSDL2_Image</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\lib_gui.hpp">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\lib_requester.hpp">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\types.hpp">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\sdl_gui.h">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\flags.hpp">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libSDL2_Gui\func.hpp">
+      <Filter>Headerdateien\libSDL2_Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libProcess\process.hpp">
+      <Filter>Headerdateien\libProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="libMisc\libMisc.h">
+      <Filter>Headerdateien\libMisc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
